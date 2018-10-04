@@ -1,0 +1,114 @@
+.black {
+	background-color: black;
+	display: block;
+}
+
+*{
+	box-sizing: border-box;
+}
+
+*{
+	font-family: Verdana !important;
+}
+
+.login-div {
+	background-color: white;
+	width: 60%;
+	height: 300px;
+	margin: auto;
+	margin: 10% auto auto;
+	border-radius: 10px;
+	overflow: hidden;
+}
+
+.my-below {
+	color: white;
+	text-align: center;
+	padding: 20px;
+}
+
+span {
+	color: #1f9117;
+}
+
+.float{
+	float: left;
+	width: 49%;
+	margin: 2px;
+	text-align: center;
+	height: 100%; 
+	padding: 1px;
+}
+/*
+.left-div {
+	background-color: aqua;
+}
+*/
+.left-div input, .input-left{
+	width: 95%;
+	margin: 8px auto;
+	padding: 10px;
+	border-radius: 3px;
+	border: .5px rgba(233, 221, 226, 0.24);
+}
+
+.ic-facebook {
+	background-image: url("images/facebook.png");
+	background-color: #3d5a98 !important;
+}
+
+.ic-twitter {
+	background-image: url("images/twitter.png");
+	background-color: #43b4a8 !important;
+}
+
+.ic-gmail {
+	background-image: url("images/gmail.png");
+	background-color: #dc4a38 !important;
+}
+
+.button{
+	background-color: #9acd32;
+	background-repeat: no-repeat;
+	background-size: 35px 35px;
+	background-position: left;
+	color: #fff;
+	font-weight: 550;
+	font-size: 15px;
+}
+
+.left-div input[type='checkbox']{
+	width: auto;
+}
+
+.left, .right{
+	float: left;
+	width: 45%;
+	display: table-cell;
+}
+
+.left, .right{
+	margin-top: 1em;
+	display: table;
+	color: gray;
+}
+.left > div{
+	display: table-cell;
+}
+
+.right > div{
+	display: table-cell;
+}
+
+.heading-2 {
+	color: #43b4a8 !important; 
+
+}
+
+label{
+	font-size: 12px !important;
+}
+
+.slot{
+	border-style: groove !important; 
+}
